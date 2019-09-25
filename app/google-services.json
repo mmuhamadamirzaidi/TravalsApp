@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "929811682384",
+    "firebase_url": "https://travalsapp.firebaseio.com",
+    "project_id": "travalsapp",
+    "storage_bucket": "travalsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929811682384:android:8b6a8f69e1ccf778f46d55",
+        "android_client_info": {
+          "package_name": "com.mmuhamadamirzaidi.travalsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929811682384-ekb8euk5n5fs4lfiald87coneriefpqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mmuhamadamirzaidi.travalsapp",
+            "certificate_hash": "2f1959cb05759578ae9430a34b2a8eddf3d01f13"
+          }
+        },
+        {
+          "client_id": "929811682384-oh25aik5oqvlg2elip0t3vq3iuc4ur9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAi0Jk6oNkPSqq-_UyWZ5-zdgHQVRTFpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929811682384-oh25aik5oqvlg2elip0t3vq3iuc4ur9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

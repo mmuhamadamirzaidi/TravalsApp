@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#1e6aa4</color>
-    <color name="colorPrimaryDark">#ffffff</color> // Color ni yang kat top bar
+    <color name="colorPrimaryDark">#1e6aa4</color> // Color ni yang kat top bar
     <color name="colorAccent">#1e6aa4</color>
 
     //Button

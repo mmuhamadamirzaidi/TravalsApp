@@ -5,15 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#1E6AA4">
+    android:background="#1E6AA4"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="150dp"
-        android:src="@drawable/logosecondary"
+    <LinearLayout
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/mm"
+            android:textColor="@color/white"
+            android:text="Places to Visit in Malacca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoprimary" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/logoprimary" />
+
+        <TextView
+            android:textAlignment="center"
+            android:fontFamily="@font/mr"
+            android:textColor="@color/white"
+            android:text="Firmly rooted as Malaysia's historical city, visiting Malacca is like a journey back in time to witness the adventures and discoveries during Malacca's golden age. \n\n Today, there are many historical sites to visit that give you a glimpse of Malacca's glorious past. This is balanced with other modern attractions such as water theme parks and cultural parks."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.mmuhamadamirzaidi.travalsapp"
         minSdkVersion 19
@@ -38,6 +38,12 @@ dependencies {
     //Firebase Library
     implementation 'com.google.firebase:firebase-core:10.2.0'
     implementation 'com.google.firebase:firebase-database:10.2.0'
+
+    implementation 'com.google.firebase:firebase-auth:16.0.1'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+
+    //Google Library
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
 
     //Others Library
     implementation 'de.hdodenhof:circleimageview:3.0.0'
